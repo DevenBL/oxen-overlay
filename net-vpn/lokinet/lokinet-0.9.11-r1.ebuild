@@ -17,7 +17,7 @@ KEYWORDS="amd64 ~x86 ~arm64 ~arm ~mips ~mips64 ~ppc64"
 IUSE="cpu_flags_x86_avx2 coverage daemon debug embedded hive jemalloc liblokinet netns shadow testnet test"
 
 DEPEND="dev-vcs/git
-    dev-util/cmake
+    dev-build/cmake
     >=dev-libs/libuv-1.27
     dev-libs/openssl
     dev-libs/spdlog
